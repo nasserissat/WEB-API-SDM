@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hni7A0vAitpk0Jql34BHuVF7IwYoHzdNWkKHqRiY0Xki2WKkh4HBBYDpihNme4CtKoXih7xMZkroK/h8eDDriw==",
+  "success": true,
+  "projectFilePath": "/Users/nasseremilissatavares/Documents/Cursos/WEBAPI/PT-WEB-API-SDM/PT-WEB-API-SDM/PT-WEB-API-SDM.csproj",
+  "expectedPackageFiles": [
+    "/Users/nasseremilissatavares/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nasseremilissatavares/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nasseremilissatavares/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/nasseremilissatavares/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/nasseremilissatavares/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/nasseremilissatavares/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
