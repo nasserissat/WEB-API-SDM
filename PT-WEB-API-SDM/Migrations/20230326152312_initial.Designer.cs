@@ -10,7 +10,7 @@ using PT_WEB_API_SDM.Data;
 namespace PT_WEB_API_SDM.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230326004748_initial")]
+    [Migration("20230326152312_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -32,7 +32,6 @@ namespace PT_WEB_API_SDM.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Model")

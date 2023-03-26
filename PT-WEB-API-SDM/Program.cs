@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PT_WEB_API_SDM.Data;
+using PT_WEB_API_SDM.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones.UseMySql("name=DefaultConnection", new MySqlServerVersion(new Version(8, 0, 32))));
+builder.Services.AddScoped<CarService>();
+builder.Services.AddScoped<CarRepository>();
 
 var app = builder.Build();
 

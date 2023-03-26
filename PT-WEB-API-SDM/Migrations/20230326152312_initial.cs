@@ -27,7 +27,7 @@ namespace PT_WEB_API_SDM.Migrations
                     Year = table.Column<int>(type: "int", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     StatusIsNew = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    Image = table.Column<string>(type: "longtext", nullable: false)
+                    Image = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>

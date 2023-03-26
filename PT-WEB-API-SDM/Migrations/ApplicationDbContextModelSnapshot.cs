@@ -29,7 +29,6 @@ namespace PT_WEB_API_SDM.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Model")
