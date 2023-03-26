@@ -1,4 +1,28 @@
 ﻿<Properties StartupConfiguration="{B0C99387-FCA8-4EB1-ABEA-7002801B00F8}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PT-WEB-API-SDM FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PT-WEB-API-SDM/Data/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="PT-WEB-API-SDM/Models/CarModel.cs" Line="14" Column="6" />
+      <File FileName="PT-WEB-API-SDM/Data/ApplicationDbContext.cs" Line="4" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PT-WEB-API-SDM" expanded="True">
+            <Node name="PT-WEB-API-SDM" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PT-WEB-API-SDM FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

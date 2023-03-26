@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/PT-WEB-API-SDM.props" />
+</Project>
