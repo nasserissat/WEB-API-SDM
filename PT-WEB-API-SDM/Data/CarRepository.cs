@@ -41,6 +41,13 @@ namespace PT_WEB_API_SDM.Data
             _context.Cars.Remove(car);
             await _context.SaveChangesAsync();
         }
-	}
+        public async Task<List<Car>> SearchCarByBrandAndModel(string brand, string model)
+        {
+            var cars = await _context.Cars.Where(c => c.Brand.Contains(brand) && c.Model.Contains(model)).ToListAsync();
+            return cars;
+        }
+      
+
+    }
 }
 

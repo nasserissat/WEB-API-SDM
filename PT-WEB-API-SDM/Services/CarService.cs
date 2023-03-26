@@ -98,6 +98,11 @@ namespace PT_WEB_API_SDM.Services
             await _carRepository.DeleteCar(id);
 
         }
+		public async Task<List<Car>> SearchCarByBrandAndModel(string brand, string model)
+		{
+
+			 return await _carRepository.SearchCarByBrandAndModel(brand, model);
+        }
 	}
 }
 

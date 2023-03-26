@@ -75,6 +75,19 @@ namespace PT_WEB_API_SDM.Controllers
             }
             
         }
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchCar(string brand, string model)
+        {
+            try
+            {
+                var cars = await _carService.SearchCarByBrandAndModel(brand, model);
+                    return Ok(cars);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
 
