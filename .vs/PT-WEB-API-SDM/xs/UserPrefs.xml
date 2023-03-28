@@ -1,32 +1,35 @@
-﻿<Properties StartupConfiguration="{B0C99387-FCA8-4EB1-ABEA-7002801B00F8}|Default">
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PT-WEB-API-SDM PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PT-WEB-API-SDM/Data/CarRepository.cs">
     <Files>
-      <File FileName="PT-WEB-API-SDM/Data/CarRepository.cs" Line="1" Column="1" />
-      <File FileName="PT-WEB-API-SDM/Services/CarService.cs" Line="81" Column="1" />
-      <File FileName="PT-WEB-API-SDM/Controllers/CarController.cs" Line="26" Column="29" />
+      <File FileName="PT-WEB-API-SDM/Data/CarRepository.cs" Line="6" Column="2" />
+      <File FileName="PT-WEB-API-SDM/Services/CarService.cs" />
+      <File FileName="PT-WEB-API-SDM/Controllers/CarController.cs" />
+      <File FileName="PT-WEB-API-SDM/Program.cs" />
+      <File FileName="PT-WEB-API-SDM/Models/Car.cs" />
+      <File FileName="PT-WEB-API-SDM/Data/ApplicationDbContext.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PT-WEB-API-SDM" expanded="True">
             <Node name="PT-WEB-API-SDM" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Data" expanded="True">
                 <Node name="CarRepository.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.PT-WEB-API-SDM PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

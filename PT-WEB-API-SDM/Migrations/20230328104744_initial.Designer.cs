@@ -10,7 +10,7 @@ using PT_WEB_API_SDM.Data;
 namespace PT_WEB_API_SDM.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230326152312_initial")]
+    [Migration("20230328104744_initial")]
     partial class initial
     {
         /// <inheritdoc />
